@@ -1,25 +1,4 @@
 {
-  "crons": [
-    {
-      "path": "/api/rankings",
-      "schedule": "0 */3 * * *"
-    },
-    {
-      "path": "/api/games",
-      "schedule": "0 */3 * * *"
-    },
-    {
-      "path": "/api/teams",
-      "schedule": "0 6 * * *"
-    },
-    {
-      "path": "/api/weeks",
-      "schedule": "0 6 * * *"
-    }
-  ]
-}
-
-{
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -33,7 +12,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
